@@ -17,7 +17,7 @@ struct MPPeersView: View {
             Text("Availabel Players")
                 .padding(.horizontal, 20)
                 .multilineTextAlignment(.center)
-//                .position(x:180,y: 50)
+
                 .font(.title3).bold()
                 .foregroundStyle(Color.accentColor)
             List(connectionManager.availabelPeers, id: \.self){

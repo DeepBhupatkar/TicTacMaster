@@ -83,11 +83,7 @@ struct StartView: View {
             }
             }
             Spacer()
-//            Text("Your Name is \(yourName)")
-//                .foregroundStyle(Color.blue)
-//
-            
-//            Spacer()
+
         }
         .padding()
         .fullScreenCover(isPresented: $startGame) {
@@ -104,7 +100,7 @@ struct StartView: View {
         }, message: {
             Text("Tapping on the OK button will quit the application so you can relaunch to use your changed name.")
         })
-//        .navigationTitle("TicTacToe By DB")
+
     }
 }
 
